@@ -1,0 +1,18 @@
+.hero {
+  text-align: center;
+  padding: 6rem 1.5rem;
+  background: var(--primary-light);
+  color: white;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: white;
+  color: var(--primary-light);
+  border-radius: var(--radius);
+  font-weight: bold;
+  text-decoration: none;
+}
