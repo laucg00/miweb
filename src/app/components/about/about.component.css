@@ -1,0 +1,8 @@
+p a {
+  color: inherit;        /* usa el mismo color del texto del párrafo */
+  text-decoration: none; /* elimina el subrayado */
+}
+
+p a:hover {
+  text-decoration: underline; /* subrayado al pasar el ratón */
+}
