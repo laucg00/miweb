@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   background: var(--light);
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   position: sticky;
@@ -15,4 +18,26 @@ nav a {
   text-decoration: none;
   color: var(--dark);
   font-weight: 500;
+}
+
+.header img {
+  width: 70px;   /* tamaño más pequeño */
+  height: auto;  /* mantiene proporción */
+}
+
+.header h1 { 
+  margin: 0; 
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;   /* aumenta ligeramente el tamaño */
+  margin: 0;           /* elimina espacio extra alrededor */
+  font-weight: 600;    /* opcional: lo hace más sólido */
+  letter-spacing: 1px; /* opcional: mejora la estética del nombre */
 }

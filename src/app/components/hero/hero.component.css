@@ -1,6 +1,6 @@
 .hero {
   text-align: center;
-  padding: 6rem 1.5rem;
+  padding: 4rem 1.5rem;
   background: var(--primary-light);
   color: white;
   border-radius: 0 0 var(--radius) var(--radius);
